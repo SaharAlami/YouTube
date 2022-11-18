@@ -30,7 +30,6 @@ header {
  .center {
     display: flex;
     align-items: center;
-    /* width: 628px; */
  }
  .center form {
     display: flex;
@@ -171,6 +170,10 @@ nav p {
  }
 .card {
     cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 span {
     display: flex;
